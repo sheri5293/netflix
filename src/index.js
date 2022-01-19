@@ -1,17 +1,23 @@
-import React from 'react';
+//.! var React = require('react'); ...... to acquire/get react in {ES5}//
+import React from 'react';   //! to acquire/get react in {ES6}//
+
+//.! var ReactDOM = require('react-dom'); ...... to acquire/get react-dom in {ES5}//
+
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//!react dom render is used for seen the value rect dom.render('kya dikhna ha' , 'kahan dikhana ha' , callback function)//
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(                                //!render method is only used for one jsx elemenet for mltiple we use div or [] div cause extra div which may disturb while css so we used react fragment <></>//
+<>
+<h1> Netflix series  </h1>     
+   <p>List of 5 best series</p>
+ <ol>
+   
+ <li> <h3>Game of thrones</h3> </li>
+ <li> <h3>money hesit</h3> </li>
+ <li>  <h4>Lucifer</h4> </li>
+ <li>   <h5>Avengers</h5> </li>
+   
+ </ol>
+   </>, 
+  document.getElementById('root'));
