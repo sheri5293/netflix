@@ -1,7 +1,7 @@
 //.! var React = require('react'); ...... to acquire/get react in {ES5}//
 import React from 'react';   //! to acquire/get react in {ES6}//
 
-//.! var ReactDOM = require('react-dom'); ...... to acquire/get react-dom in {ES5}//
+//.! var ReactDOM = require('react-dom'); ...... to acquire/get react-dom in {ES5}///
 
 import ReactDOM from 'react-dom';
 
