@@ -5,7 +5,7 @@ import React from 'react';   //! to acquire/get react in {ES6}//
 
 import ReactDOM from 'react-dom';
 
-//!react dom render is used for seen the value rect dom.render('kya dikhna ha' , 'kahan dikhana ha' , callback function)//
+//!react dom render is used for seen the value rect dom.render('kya dikhna ha' , 'kahan dikhana ha' , callback function)///
 
 const fname='sheheryar';
 const lname='khan';
